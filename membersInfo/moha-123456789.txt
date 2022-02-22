@@ -1,0 +1,7 @@
+Member Information
+Member Id: 23456789
+Name: moha
+Number: 123456789
+Address: 1190 hfg-portland-oregon-97034
+=============================================
+=============================================

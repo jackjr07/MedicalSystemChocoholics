@@ -1,0 +1,34 @@
+"""
+Funciton requriments:
+    - main weekly reports
+        - member weekly report
+        - provider weekly report
+    - services reports
+
+Data Center:
+    - memberReport
+    - proiderReport
+    - providerDirectory
+    - eft
+    - summaryReport
+
+
+Users:
+    - providers -> healthcare providers
+    - memeber -> patients
+    - users -> the person that interact with program
+
+"""
+import members
+
+def main():
+    user = Members()
+    user.createMember()
+    user.print()
+    return 0
+
+if __name__ == "__main__":
+    main()
+
+
+

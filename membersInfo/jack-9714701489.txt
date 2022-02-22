@@ -1,0 +1,21 @@
+Member Information
+Member Id: 714701489
+Name: jack
+Number: 9714701489
+Address: 1185 forest-LO-OR-97034
+=============================================
+=============================================
+Service	Service code: 123456
+Date of Service: 7-7-2007
+Provider Number: 99887762
+Member Number: 223344567
+Service Note: three note
+Created: 02-19-2022 19:42
+=============================================
+Service	Service code: 554432
+Date of Service: 8-11-2022
+Provider Number: 123456987
+Member Number: 089765435
+Service Note: test on main
+Created: 02-21-2022 22:50
+=============================================
