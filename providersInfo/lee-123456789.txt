@@ -1,0 +1,14 @@
+Provider Information
+Provider Id: 23456789
+Name: lee
+Number: 123456789
+Department: internal
+=============================================
+=============================================
+Service	Service code: 556655
+Date of Service: 5-5-5555
+Provider Number: 123456789
+Member Number: 9714701489
+Service Note: test#2 service on main
+Created: 02-23-2022 01:41
+=============================================

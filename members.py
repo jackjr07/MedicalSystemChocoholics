@@ -29,9 +29,7 @@ class Members:
             self.city = city
             self.state = state
             self.zipcode = zipcode
-            self.allServices = []
             self.addToFile()
-
 
 def createMember():
     name  = input("What is your name: ")
@@ -42,43 +40,21 @@ def createMember():
     zipcode = input("Zipcode: ")
     return [name, phone, street, city, state, zipcode]
 
-def addService(name:str, phone:str):
-    try:
-        date = input("Date of service[eg. 7]: ")
-        month = input("month of the of service[1-12]: ")
-        year = input("Year of the service[eg. 2022]: ")
-        dateofService = f"{date}-{month}-{year}"
-        serviceCode = input("Service Code[6 Digits]: ")
-        providerNumber = input("Provider Number: ")
-        memberNumber = input("Member Number: ")
-        note = input("Service's note: ")
-        ts = datetime.now()
-        timeStamp = ts.strftime("%m-%d-%Y %H:%M")
-
-        with open(f"membersInfo/{name}-{phone}.txt", "a") as file:
-            info = "Service\t"
-            service = f"Service code: {serviceCode}\n"
-            date = f"Date of Service: {dateofService}\n"
-            p = f"Provider Number: {providerNumber}\n"
-            m = f"Member Number: {memberNumber}\n"
-            sn = f"Service Note: {note}\n"
-            t = f"Created: {timeStamp}\n"
-            el = "=============================================\n"
-            file.writelines([info, service, date, p, m, sn,t,el])
-            file.close()
-        print("Added service")
-    except:
-        print("Error occured at members.addService function")
-
-def findMember(name:str, phone:str):
+def findMember(phone:str) -> str:
     try:
         #check if the user data is exist
         dirname = "./membersInfo"
         files = os.listdir(dirname)
-        if(f"{name}-{phone}.txt" in files):
+        """
+        if(f"{*}{phone}.txt" in files):
             with open(f"{dirname}/{name}-{phone}.txt", "r") as file:
                 info = file.read()
                 print(info)
+        """
+        for file in files:
+            if (file.find(phone) > 0):
+                print(file)
+                return file
     except:
         print("Error: at findMember function")
 
@@ -89,7 +65,7 @@ def main():
     #files = os.listdir('./membersInfo')
     #for i in files:
     #    print(i)
-    #findMember("jack", "9714701489")
+    findMember("9714701489")
     return 0
 
 if __name__ == "__main__":
