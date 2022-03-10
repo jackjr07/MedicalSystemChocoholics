@@ -18,7 +18,7 @@ class Provider:
             file.close()
 
     def print(self):
-        print("**User Created**")
+        print("**Provider Created**")
         print(self.providerId, self.name)
 
     def __init__(self, name,  number, department):
@@ -42,7 +42,9 @@ def findProvider(phone:str) -> str:
         files = os.listdir(dirname)
         for file in files:
             if (file.find(phone) > 0):
-                print(file)
+                with open(f"{dirname}/{file}", 'r') as f:
+                    info = f.read()
+                    print(info)
                 return file
     except:
         print("Error: at findMember function")

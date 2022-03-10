@@ -18,7 +18,7 @@ class Members:
             file.close()
 
     def print(self):
-        print("**User Created**")
+        print("**Member Created**")
         print(self.memberId, self.name)
 
     def __init__(self, name,  number, street, city, state, zipcode):
@@ -53,7 +53,9 @@ def findMember(phone:str) -> str:
         """
         for file in files:
             if (file.find(phone) > 0):
-                print(file)
+                with open(f"{dirname}/{file}", 'r') as f:
+                    info = f.read()
+                    print(info)
                 return file
     except:
         print("Error: at findMember function")

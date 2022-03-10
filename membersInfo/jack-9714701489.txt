@@ -40,3 +40,83 @@ Member Number: 9714701489
 Service Note: test#2 service on main
 Created: 02-23-2022 01:41
 =============================================
+Service code: 123456
+Date of Service: 8-8-2088
+Provider Number: 123456789
+Member Number: 9714701489
+Total Cost: 100
+Service Note: test service class
+Created: 02-26-2022 14:57
+=============================================
+Service code: 345678
+Date of Service: 6-6-2066
+Provider Number: 123456789
+Member Number: 9714701489
+Total Cost: 400
+Service Note: get week test
+Created: 02-26-2022 16:38
+=============================================
+Service code: 123456
+Date of Service: 4-4-2044
+Provider Number: 123456789
+Member Number: 9714701489
+Total Cost: 10
+Service Note: test month-week
+Created: 02-26-2022 16:40
+=============================================
+Service code: 123456
+Date of Service: 4-4-2044
+Provider Number: 123456789
+Member Number: 9714701489
+Total Cost: 50
+Service Note: test monthweek
+Created: 02-26-2022 16:41
+=============================================
+Service code: 875649
+Date of Service: 9-9-2099
+Provider Number: 123456789
+Member Number: 9714701489
+Total Cost: 988
+Service Note: report
+Created: 02-26-2022 16:52
+=============================================
+Service code: 898989
+Date of Service: 7-7-2077
+Provider Number: 123456789
+Member Number: 9714701489
+Total Cost: 988
+Service Note: test make report
+Created: 02-26-2022 16:53
+=============================================
+Service code: 4747474
+Date of Service: 8-8-1288
+Provider Number: 123456789
+Member Number: 9714701489
+Total Cost: 988
+Service Note: test report
+Created: 02-26-2022 16:54
+=============================================
+Service code: 4567879
+Date of Service: 5-5-2055
+Provider Number: 123456789
+Member Number: 9714701489
+Total Cost: 98
+Service Note: test getrepot
+Created: 02-26-2022 17:20
+=============================================
+Service code: 123456
+Date of Service: 4-4-2044
+Provider Number: 123456789
+Member Number: 9714701489
+Total Cost: 998
+Service Note: test on service
+Created: 03-09-2022 22:12
+=============================================
+Service code: 234523
+Date of Service: 8-8-2008
+Provider Number: 123456789
+Member Number: 9714701489
+Total Cost: 777
+Service Note: test3
+Created: 03-09-2022 22:24
+=============================================
