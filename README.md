@@ -2,10 +2,10 @@
 
 **CS300 - Chocoholics Anonymous Project**<br />
 I have 4 main core models<br />
-    - Member
-    - Provider
-    - Service
-    - Report
+- Member
+- Provider
+- Service
+- Report
 
 Run Unit testing<br />
 
