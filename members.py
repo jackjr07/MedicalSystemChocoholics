@@ -31,14 +31,30 @@ class Members:
             self.zipcode = zipcode
             self.addToFile()
 
+def checkInput(name:str, phone:str, street:str, city:str, state:str, zipcode:str):
+    if(not name.isalpha()):
+        raise ValueError(f"name contains only letters")
+    if(not phone.isdigit()):
+        raise ValueError(f"phone number needs to be only digits")
+    if(not city.isalpha()):
+        raise ValueError(f"city needs to be only letter")
+    if(len(state)>2 or state.isdigit()):
+        raise ValueError(f"state needs be only 2 characters, and needs to be letter")
+    if(len(zipcode)>5 or not zipcode.isdigit()):
+        raise ValueError(f"zipcode needs to be less than 5 digits")
+    return True
+    
+    
 def createMember():
-    name  = input("What is your name: ")
-    phone = input("What is your phone number: ")
-    street = input("What is your address: ")
-    city = input("City: ")
-    state = input("State: ")
-    zipcode = input("Zipcode: ")
+    name  = input("What is your name[eg. jack]: ").lower()
+    phone = input("What is your phone number[eg. 503-123-4567]: ").lower()
+    street = input("What is your address[eg. 1234 NW Hello St]: ").lower()
+    city = input("City[eg. portland, seattle]: ").lower()
+    state = input("State[eg. or, wa]: ").lower()
+    zipcode = input("Zipcode[eg. 97201]: ")
+    checkInput(name, phone,street, city, state, zipcode)
     return [name, phone, street, city, state, zipcode]
+
 
 def findMember(phone:str) -> str:
     try:
@@ -67,7 +83,7 @@ def main():
     #files = os.listdir('./membersInfo')
     #for i in files:
     #    print(i)
-    findMember("9714701489")
+    #findMember("9714701489")
     return 0
 
 if __name__ == "__main__":

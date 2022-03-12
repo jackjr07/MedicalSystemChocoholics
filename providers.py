@@ -46,12 +46,14 @@ def findProvider(phone:str) -> str:
                     info = f.read()
                     print(info)
                 return file
+        raise NotFound(f"This phone number is not found in the system")
     except:
         print("Error: at findMember function")
 
 
 def main():
     findProvider("123456789")
+    findProvider("123450009")
 
     return 0
 
