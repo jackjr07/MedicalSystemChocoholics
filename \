@@ -79,32 +79,10 @@ class providerTesting(unittest.TestCase):
 
 
 class serviceTesting(unittest.TestCase):
-    @patch('sys.stdout', new_callable=StringIO)
-    def test_getReport(self, mock_stdout):
-        getreport("00", "00")
-        self.assertEqual(mock_stdout.getvalue(), "This is for unittest\n\n")
-    
-    def test_service_class(self):
-        sv = ["9", "9", "2099", "123456", "123456789", "9714701489", "unittest's note", "1000"]
-        with patch('builtins.input', side_effect = sv): 
-            temp = Service()
-        self.assertTrue(type(temp) is Service)
-    
-    def test_service_getTime(self):
-        sv = ["9", "9", "2099", "123456", "123456789", "9714701489", "unittest's note", "1000"]
-        with patch('builtins.input', side_effect = sv): 
-            temp = Service()
-            time = temp.getTime()
-        self.assertEqual(time, datetime.now().strftime("%m-%d-%Y %H:%M"))
-
-    def test_service_getMonthWeek(self):
-        sv = ["9", "9", "2099", "123456", "123456789", "9714701489", "unittest's note", "1000"]
-        with patch('builtins.input', side_effect = sv): 
-            temp = Service()
-            time = temp.getMonthWeek()
-        self.assertEqual(time, datetime.now().strftime("%m-%W"))
-
-
+    def test_getReport(self):
+        with patch('builtins.print', new_callable=StringIO):
+            getreport("00", "00")
+        assert self.getvalue() == "This is for unittest\n"
 
 
 

@@ -30,9 +30,9 @@ class Provider:
 
 
 def createProvider():
-    name  = input("What is your name: ")
-    phone = input("What is your phone number: ")
-    dep = input("What is your department: ")
+    name  = input("What is your name: ").lower()
+    phone = input("What is your phone number: ").lower()
+    dep = input("What is your department: ").lower()
     return [name, phone, dep]
 
 def findProvider(phone:str) -> str: 
