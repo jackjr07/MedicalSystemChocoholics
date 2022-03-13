@@ -10,11 +10,26 @@ I have 4 main core models<br />
 - After member created, I create the file with the file name according to member.name-member.phone.
 : Since phone number will be unique anyway, in this case our users account will be unique too.
 - Find member function will find the user based on their phone number. In the file directory. Return with print user's info on the screen and also return the file name to the funciton. Incase we would need to modified the file in the future.
+
 2. Provider
+> This is the provider, that provide the service to member
+
+- Provider object has 3 initial parameters: name, phone, department.
+- After the provider created, I create the file with the file name according to provider.name-provide.number
+: Since phone number will be unique anyway, in this case our users account will be unique too.
+- Find provider function will find the user based on their phone number. In the file directory. Return with print user's info on the screen and also return the file name to the funciton. Incase we would need to modified the file in the future.
+
 3. Service
-4. Report
+> This is the service module, this is where all the services that member recived, and provider provided will be created. Then it will get add to member and provider file as their service log, as well as the weekly report.
+- Service object has 8 initial parameters: Data, month and year of the service, service's code, provider's number, member's number, service's note, and total cost of the service.
+- The program will generate the timestamp when this file is creted.
+- After the service created, I add this service information to the member's file, and provider's file, then the weekly report.
+- getreport function will get the report what has been created during the month and weekly numbers that ththe services has been created. As a result, this is how the admin can get the weekly report for all service
 
 ***Run Unit testing***<br />
+> I have added the initial member, and provider, and weekly report for testing purpose. 
+
+**Command for running unittest**<br />
 
 ```
 python3 models_test.py -v -b
