@@ -3,7 +3,7 @@
 **CS300 - Chocoholics Anonymous Project**<br />
 I have 4 main core models<br />
 1. Member
->This is the member, that use the serivces.
+> This is the member, that use the serivces. 
     - Members object has 6 initial parameters: name, phone, street, city, state, zipcode.
     - I have checkInput function to elimicate the protential invalid input from user
     - After member created, I create the file with the file name according to member.name-member.phone.
