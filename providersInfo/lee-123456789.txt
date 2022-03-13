@@ -220,3 +220,27 @@ Total Cost: 1000
 Service Note: unittest's note
 Created: 03-13-2022 01:02
 =============================================
+Service code: 123456
+Date of Service: 9-9-2099
+Provider Number: 123456789
+Member Number: 9714701489
+Total Cost: 1000
+Service Note: unittest's note
+Created: 03-13-2022 15:05
+=============================================
+Service code: 123456
+Date of Service: 9-9-2099
+Provider Number: 123456789
+Member Number: 9714701489
+Total Cost: 1000
+Service Note: unittest's note
+Created: 03-13-2022 15:05
+=============================================
+Service code: 123456
+Date of Service: 9-9-2099
+Provider Number: 123456789
+Member Number: 9714701489
+Total Cost: 1000
+Service Note: unittest's note
+Created: 03-13-2022 15:05
+=============================================
