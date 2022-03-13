@@ -49,7 +49,6 @@ python3 models_test.py
 > This is the gif show user how to interact with the program, what would be the expected input, and result.
 
 1. Create Member
-<img src="./gifWalkThrough/1" alt="CreateMember" height="500">
-
+<img src="./gifWalkThrough/1.gif" alt="CreateMember" height="500">
 
 
