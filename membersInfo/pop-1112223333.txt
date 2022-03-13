@@ -1,0 +1,15 @@
+Member Information
+Member Id: 112223333
+Name: pop
+Number: 1112223333
+Address: 123 hoho-portland-or-11000
+=============================================
+=============================================
+Service code: 334455
+Date of Service: 13-03-2022
+Provider Number: 2223334444
+Member Number: 1112223333
+Total Cost: 9999
+Service Note: last test
+Created: 03-13-2022 16:10
+=============================================

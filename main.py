@@ -1,25 +1,3 @@
-"""
-&&& Check input quality
-Funciton requriments:
-    - main weekly reports
-        X member weekly report
-        X provider weekly report
-    X services reports
-
-Data Center:
-    - memberReport
-    - proiderReport
-    - providerDirectory
-    - eft
-    - summaryReport
-
-
-Users:
-    X providers -> healthcare providers
-    X memeber -> patients
-    X users -> the person that interact with program
-
-"""
 import members
 import providers
 import services
