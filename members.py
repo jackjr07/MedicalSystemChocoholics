@@ -1,7 +1,6 @@
 """
 This is the file for members functions
 """
-from datetime import datetime
 import os
 
 class Members:
@@ -56,25 +55,21 @@ def createMember():
     return [name, phone, street, city, state, zipcode]
 
 
-def findMember(phone:str) -> str:
+def findMember(phone:str)->str:
     try:
         #check if the user data is exist
         dirname = "./membersInfo"
         files = os.listdir(dirname)
-        """
-        if(f"{*}{phone}.txt" in files):
-            with open(f"{dirname}/{name}-{phone}.txt", "r") as file:
-                info = file.read()
-                print(info)
-        """
         for file in files:
             if (file.find(phone) > 0):
                 with open(f"{dirname}/{file}", 'r') as f:
                     info = f.read()
                     print(info)
                 return file
-    except:
-        print("Error: at findMember function")
+            else:
+                continue
+    except Exception as e:
+        print(f"Error: at findMember function{e}")
 
 
 def main():
@@ -83,7 +78,7 @@ def main():
     #files = os.listdir('./membersInfo')
     #for i in files:
     #    print(i)
-    #findMember("9714701489")
+    #print(type(findMember("1112223333")))
     return 0
 
 if __name__ == "__main__":

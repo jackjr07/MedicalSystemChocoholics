@@ -1,7 +1,6 @@
 """
 This is the file for Providers functions
 """
-from datetime import datetime
 import os
 
 class Provider:
@@ -46,14 +45,15 @@ def findProvider(phone:str) -> str:
                     info = f.read()
                     print(info)
                 return file
-        raise NotFound(f"This phone number is not found in the system")
+            else:
+                continue
     except:
-        print("Error: at findMember function")
+        print("Error: at findProvider function")
 
 
 def main():
-    findProvider("123456789")
-    findProvider("123450009")
+    #findProvider("123456789")
+    #findProvider("123450009")
 
     return 0
 

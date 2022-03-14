@@ -1,7 +1,7 @@
 Member Information
-Member Id: 112223333
+Member Id: 031112222
 Name: Test1
-Number: 1112223333
+Number: 5031112222
 Address: 1234 Holo-Portland-OR-97201
 =============================================
 =============================================

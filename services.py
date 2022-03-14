@@ -71,7 +71,7 @@ def getreport(month,week):
         print(f"Error is occured at Service class - getreport : {e}")
 
 def main():
-    getreport("00", "00")
+    #getreport("00", "00")
 
 
     return 0

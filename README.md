@@ -43,6 +43,10 @@ python3 models_test.py
 ```
 - This will run all the test with print statement
 
+> <img src="./gitWalkThrough/7.gif" alt="Unittest" height="500">
+
+
+
 
 ***Walk Through***
 
@@ -50,5 +54,23 @@ python3 models_test.py
 
 1. Create Member
 <img src="./gifWalkThrough/1.gif" alt="CreateMember" height="500">
+
+2. Create Provider
+<img src="./gifWalkThrough/2.gif" alt="CreateProvider" height="500">
+
+3. Create Service
+<img src="./gifWalkThrough/3.gif" alt="CreateProvider" height="500">
+
+4. Get Weekly Report
+<img src="./gifWalkThrough/4.gif" alt="CreateProvider" height="500">
+
+5. Find Member Information and Personal Services Log
+<img src="./gifWalkThrough/5.gif" alt="CreateProvider" height="500">
+
+6. Find Provider Information and Personal Services Log
+<img src="./gifWalkThrough/6.gif" alt="CreateProvider" height="500">
+
+
+***Thank you - Jack Wanitkun ***
 
 
