@@ -43,7 +43,7 @@ python3 models_test.py
 ```
 - This will run all the test with print statement
 
-<img src="./gitWalkThrough/7.gif" alt="Unittest" height="500">
+<img src="./gifWalkThrough/7.gif" alt="CreateProvider" height="500">
 
 
 
