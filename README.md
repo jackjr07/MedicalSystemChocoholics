@@ -26,6 +26,8 @@ I have 4 main core models<br />
 - After the service created, I add this service information to the member's file, and provider's file, then the weekly report.
 - getreport function will get the report of what has been created during the month and weekly numbers that the services have been created. As a result, this is how the admin can get the weekly report for all service
 
+---
+
 ***Run Unit testing***<br />
 > I have added the initial member, and provider, and weekly report for testing purpose. 
 
@@ -45,7 +47,7 @@ python3 models_test.py
 
 <img src="./gifWalkThrough/7.gif" alt="CreateProvider" height="500">
 
-
+---
 
 
 ***Walk Through***
